@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Strategy.Ex1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="364.0">Strategy.Ex1.Knight</node>
+    <node x="226.99999999999997" y="364.0">Strategy.Ex1.Troll</node>
+    <node x="0.0" y="123.0">Strategy.Ex1.AxeBehaviour</node>
+    <node x="320.99999999999994" y="123.0">Strategy.Ex1.BowAndArrowBehaviour</node>
+    <node x="426.0" y="364.0">Strategy.Ex1.Queen</node>
+    <node x="564.4999999999999" y="0.0">Strategy.Ex1.WeaponBehaviour</node>
+    <node x="881.0" y="241.0">Strategy.Ex1.Main</node>
+    <node x="300.25" y="241.0">Strategy.Ex1.Character</node>
+    <node x="656.0" y="364.0">Strategy.Ex1.King</node>
+    <node x="783.0" y="123.0">Strategy.Ex1.SwordBehaviour</node>
+    <node x="1139.0" y="123.0">Strategy.Ex1.KnifeBehaviour</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Strategy.Ex1.Knight" target="Strategy.Ex1.Character">
+      <point x="0.0" y="-36.5" />
+      <point x="103.5" y="334.0" />
+      <point x="331.125" y="334.0" />
+      <point x="-92.625" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex1.BowAndArrowBehaviour" target="Strategy.Ex1.WeaponBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="542.0" y="103.0" />
+      <point x="700.9999999999999" y="103.0" />
+      <point x="-45.5" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex1.Queen" target="Strategy.Ex1.Character">
+      <point x="0.0" y="-36.5" />
+      <point x="531.0" y="344.0" />
+      <point x="454.625" y="344.0" />
+      <point x="30.875" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex1.SwordBehaviour" target="Strategy.Ex1.WeaponBehaviour">
+      <point x="-5.6843418860808015E-14" y="-36.5" />
+      <point x="950.9999999999999" y="103.0" />
+      <point x="791.9999999999999" y="103.0" />
+      <point x="45.5" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex1.KnifeBehaviour" target="Strategy.Ex1.WeaponBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="1298.0" y="93.0" />
+      <point x="882.9999999999999" y="93.0" />
+      <point x="136.5" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex1.AxeBehaviour" target="Strategy.Ex1.WeaponBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="150.5" y="93.0" />
+      <point x="609.9999999999999" y="93.0" />
+      <point x="-136.5" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex1.King" target="Strategy.Ex1.Character">
+      <point x="0.0" y="-36.5" />
+      <point x="746.0" y="334.0" />
+      <point x="516.375" y="334.0" />
+      <point x="92.625" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex1.Troll" target="Strategy.Ex1.Character">
+      <point x="0.0" y="-36.5" />
+      <point x="316.5" y="344.0" />
+      <point x="392.875" y="344.0" />
+      <point x="-30.875" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="728.5" y="218.5" />
+  <SelectedNodes>
+    <node>Strategy.Ex1.King</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Composite.Ex1</OriginalElement>
+  <nodes>
+    <node x="218.0" y="123.0">Composite.Ex1.MenuItem</node>
+    <node x="0.0" y="123.0">Composite.Ex1.Menu</node>
+    <node x="0.0" y="241.0">Composite.Ex1.Starter</node>
+    <node x="44.5" y="0.0">Composite.Ex1.MenuComponent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Composite.Ex1.Menu" target="Composite.Ex1.MenuComponent">
+      <point x="0.0" y="-36.5" />
+      <point x="99.0" y="98.0" />
+      <point x="133.75" y="98.0" />
+      <point x="-89.25" y="36.5" />
+    </edge>
+    <edge source="Composite.Ex1.MenuItem" target="Composite.Ex1.MenuComponent">
+      <point x="0.0" y="-36.5" />
+      <point x="347.0" y="98.0" />
+      <point x="312.25" y="98.0" />
+      <point x="89.25" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="238.0" y="157.0" />
+  <SelectedNodes>
+    <node>Composite.Ex1.MenuComponent</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

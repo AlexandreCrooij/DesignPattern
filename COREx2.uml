@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ChainOfResponsibility.Ex2</OriginalElement>
+  <nodes>
+    <node x="674.0" y="123.0">ChainOfResponsibility.Ex2.SpamHandler</node>
+    <node x="558.5" y="0.0">ChainOfResponsibility.Ex2.Handler</node>
+    <node x="382.0" y="123.0">ChainOfResponsibility.Ex2.FanHandler</node>
+    <node x="0.0" y="241.0">ChainOfResponsibility.Ex2.MailRequest</node>
+    <node x="994.0" y="123.0">ChainOfResponsibility.Ex2.NewLocHandler</node>
+    <node x="0.0" y="123.0">ChainOfResponsibility.Ex2.ComplaintHandler</node>
+    <node x="330.0" y="241.0">ChainOfResponsibility.Ex2.CheckMail</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ChainOfResponsibility.Ex2.ComplaintHandler" target="ChainOfResponsibility.Ex2.Handler">
+      <point x="0.0" y="-36.5" />
+      <point x="181.0" y="93.0" />
+      <point x="586.625" y="93.0" />
+      <point x="-84.375" y="36.5" />
+    </edge>
+    <edge source="ChainOfResponsibility.Ex2.FanHandler" target="ChainOfResponsibility.Ex2.Handler">
+      <point x="0.0" y="-36.5" />
+      <point x="518.0" y="103.0" />
+      <point x="642.875" y="103.0" />
+      <point x="-28.125" y="36.5" />
+    </edge>
+    <edge source="ChainOfResponsibility.Ex2.SpamHandler" target="ChainOfResponsibility.Ex2.Handler">
+      <point x="0.0" y="-36.5" />
+      <point x="824.0" y="103.0" />
+      <point x="699.125" y="103.0" />
+      <point x="28.125" y="36.5" />
+    </edge>
+    <edge source="ChainOfResponsibility.Ex2.NewLocHandler" target="ChainOfResponsibility.Ex2.Handler">
+      <point x="0.0" y="-36.5" />
+      <point x="1159.5" y="93.0" />
+      <point x="755.375" y="93.0" />
+      <point x="84.375" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8408921933085501" x="662.5" y="157.0" />
+  <SelectedNodes>
+    <node>ChainOfResponsibility.Ex2.ComplaintHandler</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

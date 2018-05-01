@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Factory.Ex2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="482.0">Factory.Ex2.ArchitectOffice</node>
+    <node x="0.0" y="364.0">Factory.Ex2.Glass</node>
+    <node x="0.0" y="123.0">Factory.Ex2.GlassHouse</node>
+    <node x="603.0" y="123.0">Factory.Ex2.BricksHouse</node>
+    <node x="222.5" y="241.0">Factory.Ex2.Wall</node>
+    <node x="295.0" y="123.0">Factory.Ex2.WoodHouse</node>
+    <node x="336.0" y="0.0">Factory.Ex2.House</node>
+    <node x="210.0" y="364.0">Factory.Ex2.Wood</node>
+    <node x="433.0" y="364.0">Factory.Ex2.Bricks</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Factory.Ex2.Glass" target="Factory.Ex2.Wall">
+      <point x="0.0" y="-36.5" />
+      <point x="95.0" y="339.0" />
+      <point x="252.16666666666669" y="339.0" />
+      <point x="-59.333333333333314" y="36.5" />
+    </edge>
+    <edge source="Factory.Ex2.WoodHouse" target="Factory.Ex2.House">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Factory.Ex2.BricksHouse" target="Factory.Ex2.House">
+      <point x="0.0" y="-36.5" />
+      <point x="744.0" y="98.0" />
+      <point x="507.66666666666674" y="98.0" />
+      <point x="68.66666666666674" y="36.5" />
+    </edge>
+    <edge source="Factory.Ex2.GlassHouse" target="Factory.Ex2.House">
+      <point x="0.0" y="-36.5" />
+      <point x="137.5" y="98.0" />
+      <point x="370.3333333333333" y="98.0" />
+      <point x="-68.66666666666669" y="36.5" />
+    </edge>
+    <edge source="Factory.Ex2.Bricks" target="Factory.Ex2.Wall">
+      <point x="0.0" y="-36.5" />
+      <point x="531.5" y="339.0" />
+      <point x="370.83333333333337" y="339.0" />
+      <point x="59.33333333333337" y="36.5" />
+    </edge>
+    <edge source="Factory.Ex2.Wood" target="Factory.Ex2.Wall">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="442.5" y="277.5" />
+  <SelectedNodes>
+    <node>Factory.Ex2.ArchitectOffice</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

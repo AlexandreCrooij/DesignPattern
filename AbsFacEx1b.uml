@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>AbstractFactory</OriginalElement>
+  <nodes>
+    <node x="1263.4999999999998" y="253.0">AbstractFactory.House</node>
+    <node x="667.4999999999998" y="426.0">AbstractFactory.HouseFactory</node>
+    <node x="1002.4999999999998" y="253.0">AbstractFactory.BrickWall</node>
+    <node x="2588.7762860082303" y="253.0">AbstractFactory.GlassWall</node>
+    <node x="10.5" y="253.0">AbstractFactory.FloorWindow</node>
+    <node x="1272.4999999999998" y="0.0">AbstractFactory.Door</node>
+    <node x="972.4603137860079" y="629.0">AbstractFactory.SwissHouseFactory</node>
+    <node x="341.4999999999998" y="253.0">AbstractFactory.LargeDoor</node>
+    <node x="2230.5826903292173" y="629.0">AbstractFactory.GermanHouseFactory</node>
+    <node x="975.4075874485587" y="752.0">AbstractFactory.ArchitectOffice</node>
+    <node x="313.93407921810626" y="629.0">AbstractFactory.DutchHouseFactory</node>
+    <node x="2270.2458847736616" y="426.0">AbstractFactory.ThinDoor</node>
+    <node x="1501.3194444444441" y="0.0">AbstractFactory.Wall</node>
+    <node x="879.9374999999998" y="0.0">AbstractFactory.Window</node>
+    <node x="1899.2458847736618" y="426.0">AbstractFactory.StructureWindow</node>
+    <node x="1607.2458847736618" y="253.0">AbstractFactory.WoodWall</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.HouseFactory">
+      <point x="171.9000000000001" y="-36.5" />
+      <point x="676.8340792181064" y="609.0" />
+      <point x="705.3749999999998" y="609.0" />
+      <point x="-113.625" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.StructureWindow" target="AbstractFactory.Window">
+      <point x="0.0" y="-36.5" />
+      <point x="2074.7458847736616" y="143.0" />
+      <point x="1067.6249999999998" y="143.0" />
+      <point x="72.1875" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.Window">
+      <point x="-124.66666666666663" y="-36.5" />
+      <point x="1034.7936471193411" y="599.0" />
+      <point x="980.9999999999998" y="599.0" />
+      <point x="-14.4375" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.Door">
+      <point x="0.0" y="-36.5" />
+      <point x="1159.4603137860079" y="569.0" />
+      <point x="1596.7458847736618" y="569.0" />
+      <point x="1596.7458847736618" y="193.0" />
+      <point x="1401.7499999999998" y="193.0" />
+      <point x="35.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.Door">
+      <point x="90.66666666666674" y="-36.5" />
+      <point x="2525.249356995884" y="599.0" />
+      <point x="2567.2762860082303" y="599.0" />
+      <point x="2567.2762860082303" y="113.0" />
+      <point x="1448.7499999999998" y="113.0" />
+      <point x="82.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.FloorWindow" target="AbstractFactory.Window">
+      <point x="0.0" y="-36.5" />
+      <point x="160.0" y="153.0" />
+      <point x="923.2499999999998" y="153.0" />
+      <point x="-72.1875" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.House">
+      <point x="-136.0" y="-36.5" />
+      <point x="2298.5826903292173" y="529.0" />
+      <point x="1888.7458847736618" y="529.0" />
+      <point x="1888.7458847736618" y="386.0" />
+      <point x="1435.1666666666665" y="386.0" />
+      <point x="68.66666666666674" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.HouseFactory">
+      <point x="-181.33333333333348" y="-36.5" />
+      <point x="2253.2493569958838" y="539.0" />
+      <point x="932.6249999999998" y="539.0" />
+      <point x="113.625" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.ThinDoor" target="AbstractFactory.Door">
+      <point x="0.0" y="-36.5" />
+      <point x="2392.7458847736616" y="133.0" />
+      <point x="1425.2499999999998" y="133.0" />
+      <point x="58.75" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.ArchitectOffice" target="AbstractFactory.House">
+      <point x="63.200000000000045" y="-36.5" />
+      <point x="1196.6075874485587" y="722.0" />
+      <point x="1471.7346193415635" y="722.0" />
+      <point x="1471.7346193415635" y="396.0" />
+      <point x="1412.2777777777776" y="396.0" />
+      <point x="45.77777777777783" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.FloorWindow">
+      <point x="-133.69999999999982" y="-36.5" />
+      <point x="371.23407921810644" y="599.0" />
+      <point x="160.0" y="599.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.ArchitectOffice" target="AbstractFactory.DutchHouseFactory">
+      <point x="-126.39999999999986" y="-36.5" />
+      <point x="1007.0075874485589" y="732.0" />
+      <point x="504.93407921810626" y="732.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.Door">
+      <point x="-95.5" y="-36.5" />
+      <point x="409.43407921810626" y="589.0" />
+      <point x="331.0" y="589.0" />
+      <point x="331.0" y="173.0" />
+      <point x="1284.2499999999998" y="173.0" />
+      <point x="-82.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.House" target="AbstractFactory.Window">
+      <point x="-51.5" y="-36.5" />
+      <point x="1314.9999999999998" y="153.0" />
+      <point x="1038.7499999999998" y="153.0" />
+      <point x="43.3125" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.HouseFactory" target="AbstractFactory.House">
+      <point x="37.875" y="-36.5" />
+      <point x="856.8749999999998" y="396.0" />
+      <point x="1343.6111111111109" y="396.0" />
+      <point x="-22.888888888888914" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.Window">
+      <point x="-171.89999999999986" y="-36.5" />
+      <point x="333.0340792181064" y="609.0" />
+      <point x="0.0" y="609.0" />
+      <point x="0.0" y="143.0" />
+      <point x="894.3749999999998" y="143.0" />
+      <point x="-101.0625" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.WoodWall" target="AbstractFactory.Wall">
+      <point x="0.0" y="-36.5" />
+      <point x="1737.2458847736618" y="233.0" />
+      <point x="1610.097222222222" y="233.0" />
+      <point x="19.77777777777783" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.HouseFactory" target="AbstractFactory.Wall">
+      <point x="113.625" y="-36.5" />
+      <point x="932.6249999999998" y="406.0" />
+      <point x="1585.7458847736618" y="406.0" />
+      <point x="1585.7458847736618" y="233.0" />
+      <point x="1590.3194444444441" y="233.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.ThinDoor">
+      <point x="166.22222222222217" y="-36.5" />
+      <point x="1325.68253600823" y="609.0" />
+      <point x="2331.4958847736616" y="609.0" />
+      <point x="-61.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.Wall">
+      <point x="136.0" y="-36.5" />
+      <point x="2570.5826903292173" y="609.0" />
+      <point x="2578.2762860082303" y="609.0" />
+      <point x="2578.2762860082303" y="103.0" />
+      <point x="1649.6527777777774" y="103.0" />
+      <point x="59.33333333333326" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.BrickWall">
+      <point x="19.09999999999991" y="-36.5" />
+      <point x="524.0340792181062" y="579.0" />
+      <point x="623.9999999999998" y="579.0" />
+      <point x="623.9999999999998" y="356.0" />
+      <point x="1122.9999999999998" y="356.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.StructureWindow">
+      <point x="-90.66666666666674" y="-36.5" />
+      <point x="2343.9160236625503" y="519.0" />
+      <point x="2162.4958847736616" y="519.0" />
+      <point x="87.75" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.BrickWall" target="AbstractFactory.Wall">
+      <point x="0.0" y="-36.5" />
+      <point x="1122.9999999999998" y="213.0" />
+      <point x="1530.9861111111109" y="213.0" />
+      <point x="-59.33333333333326" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.House" target="AbstractFactory.Door">
+      <point x="-17.166666666666742" y="-36.5" />
+      <point x="1349.333333333333" y="193.0" />
+      <point x="1354.7499999999998" y="193.0" />
+      <point x="-11.75" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.ThinDoor">
+      <point x="-45.333333333333485" y="-36.5" />
+      <point x="2389.2493569958838" y="569.0" />
+      <point x="2453.9958847736616" y="569.0" />
+      <point x="61.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.ArchitectOffice" target="AbstractFactory.HouseFactory">
+      <point x="-63.200000000000045" y="-36.5" />
+      <point x="1070.2075874485586" y="722.0" />
+      <point x="781.1249999999998" y="722.0" />
+      <point x="-37.875" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.LargeDoor" target="AbstractFactory.Door">
+      <point x="0.0" y="-36.5" />
+      <point x="471.9999999999998" y="183.0" />
+      <point x="1307.7499999999998" y="183.0" />
+      <point x="-58.75" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.StructureWindow">
+      <point x="124.66666666666663" y="-36.5" />
+      <point x="1284.1269804526744" y="599.0" />
+      <point x="1986.9958847736618" y="599.0" />
+      <point x="-87.75" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.ArchitectOffice" target="AbstractFactory.GermanHouseFactory">
+      <point x="126.40000000000009" y="-36.5" />
+      <point x="1259.807587448559" y="732.0" />
+      <point x="2434.5826903292173" y="732.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.House" target="AbstractFactory.Wall">
+      <point x="85.83333333333326" y="-36.5" />
+      <point x="1452.333333333333" y="233.0" />
+      <point x="1570.5416666666663" y="233.0" />
+      <point x="-19.77777777777783" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.GlassWall">
+      <point x="181.33333333333326" y="-36.5" />
+      <point x="2615.9160236625503" y="609.0" />
+      <point x="2712.2762860082303" y="609.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.Wall">
+      <point x="83.11111111111109" y="-36.5" />
+      <point x="1242.571424897119" y="589.0" />
+      <point x="1877.7458847736618" y="589.0" />
+      <point x="1877.7458847736618" y="223.0" />
+      <point x="1629.8749999999995" y="223.0" />
+      <point x="39.55555555555543" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GlassWall" target="AbstractFactory.Wall">
+      <point x="0.0" y="-36.5" />
+      <point x="2712.2762860082303" y="93.0" />
+      <point x="1669.4305555555552" y="93.0" />
+      <point x="79.11111111111109" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.LargeDoor">
+      <point x="-57.299999999999955" y="-36.5" />
+      <point x="447.6340792181063" y="609.0" />
+      <point x="471.9999999999998" y="609.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.GermanHouseFactory" target="AbstractFactory.Window">
+      <point x="45.33333333333326" y="-36.5" />
+      <point x="2479.9160236625503" y="589.0" />
+      <point x="2536.7458847736616" y="589.0" />
+      <point x="2536.7458847736616" y="123.0" />
+      <point x="1096.4999999999998" y="123.0" />
+      <point x="101.0625" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.HouseFactory">
+      <point x="-166.22222222222217" y="-36.5" />
+      <point x="993.2380915637857" y="609.0" />
+      <point x="856.8749999999998" y="609.0" />
+      <point x="37.875" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.WoodWall">
+      <point x="41.55555555555554" y="-36.5" />
+      <point x="1201.0158693415633" y="579.0" />
+      <point x="1737.2458847736618" y="579.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.SwissHouseFactory" target="AbstractFactory.House">
+      <point x="-83.11111111111109" y="-36.5" />
+      <point x="1076.3492026748968" y="549.0" />
+      <point x="1377.6269804526746" y="549.0" />
+      <point x="1377.6269804526746" y="396.0" />
+      <point x="1366.4999999999998" y="396.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.HouseFactory" target="AbstractFactory.Door">
+      <point x="-37.875" y="-36.5" />
+      <point x="781.1249999999998" y="346.0" />
+      <point x="991.9999999999998" y="346.0" />
+      <point x="991.9999999999998" y="193.0" />
+      <point x="1331.2499999999998" y="193.0" />
+      <point x="-35.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.HouseFactory" target="AbstractFactory.Window">
+      <point x="-113.625" y="-36.5" />
+      <point x="705.3749999999998" y="346.0" />
+      <point x="320.0" y="346.0" />
+      <point x="320.0" y="163.0" />
+      <point x="952.1249999999998" y="163.0" />
+      <point x="-43.3125" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.ArchitectOffice" target="AbstractFactory.SwissHouseFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="1133.4075874485588" y="732.0" />
+      <point x="1159.4603137860079" y="732.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.House">
+      <point x="133.69999999999982" y="-36.5" />
+      <point x="638.6340792181061" y="609.0" />
+      <point x="656.9999999999998" y="609.0" />
+      <point x="656.9999999999998" y="386.0" />
+      <point x="1320.722222222222" y="386.0" />
+      <point x="-45.77777777777783" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.DutchHouseFactory" target="AbstractFactory.Wall">
+      <point x="-19.09999999999991" y="-36.5" />
+      <point x="485.83407921810635" y="569.0" />
+      <point x="612.9999999999998" y="569.0" />
+      <point x="612.9999999999998" y="203.0" />
+      <point x="1511.208333333333" y="203.0" />
+      <point x="-79.11111111111109" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1418.0" y="412.5" />
+  <SelectedNodes>
+    <node>AbstractFactory.House</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

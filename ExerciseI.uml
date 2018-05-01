@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ExerciseI</OriginalElement>
+  <nodes>
+    <node x="0.0" y="364.0">ExerciseI.MedicalEmployee</node>
+    <node x="0.0" y="482.0">ExerciseI.Main</node>
+    <node x="71.5" y="0.0">ExerciseI.Subject</node>
+    <node x="401.0" y="241.0">ExerciseI.Problem</node>
+    <node x="0.0" y="123.0">ExerciseI.PatientMonitoring</node>
+    <node x="57.5" y="241.0">ExerciseI.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ExerciseI.MedicalEmployee" target="ExerciseI.Observer">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="ExerciseI.PatientMonitoring" target="ExerciseI.Subject">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="317.0" y="277.5" />
+  <SelectedNodes>
+    <node>ExerciseI.Observer</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Strategy.Ex2</OriginalElement>
+  <nodes>
+    <node x="246.0" y="241.0">Strategy.Ex2.Main</node>
+    <node x="0.0" y="123.0">Strategy.Ex2.SelectionSort</node>
+    <node x="627.0" y="123.0">Strategy.Ex2.BubbleSort</node>
+    <node x="0.0" y="241.0">Strategy.Ex2.Sorter</node>
+    <node x="316.0" y="123.0">Strategy.Ex2.InsertionSort</node>
+    <node x="287.5" y="0.0">Strategy.Ex2.SortingBehaviour</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Strategy.Ex2.SelectionSort" target="Strategy.Ex2.SortingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="148.0" y="98.0" />
+      <point x="345.5" y="98.0" />
+      <point x="-116.0" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex2.BubbleSort" target="Strategy.Ex2.SortingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="761.0" y="98.0" />
+      <point x="577.5" y="98.0" />
+      <point x="116.0" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex2.InsertionSort" target="Strategy.Ex2.SortingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="447.5" y="157.0" />
+  <SelectedNodes>
+    <node>Strategy.Ex2.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

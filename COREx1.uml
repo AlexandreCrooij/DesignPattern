@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ChainOfResponsibility.Ex1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="123.0">ChainOfResponsibility.Ex1.StabsoffiziereDPower</node>
+    <node x="423.0" y="123.0">ChainOfResponsibility.Ex1.OberbefehlshaberDPower</node>
+    <node x="748.25" y="0.0">ChainOfResponsibility.Ex1.DayPower</node>
+    <node x="0.0" y="241.0">ChainOfResponsibility.Ex1.CheckDayAuthority</node>
+    <node x="1306.0" y="123.0">ChainOfResponsibility.Ex1.HöhereStabsoffieziereDPower</node>
+    <node x="421.0" y="241.0">ChainOfResponsibility.Ex1.DayRequest</node>
+    <node x="907.0" y="123.0">ChainOfResponsibility.Ex1.HauptLeuteDPower</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ChainOfResponsibility.Ex1.OberbefehlshaberDPower" target="ChainOfResponsibility.Ex1.DayPower">
+      <point x="0.0" y="-36.5" />
+      <point x="655.0" y="103.0" />
+      <point x="843.875" y="103.0" />
+      <point x="-31.875" y="36.5" />
+    </edge>
+    <edge source="ChainOfResponsibility.Ex1.HauptLeuteDPower" target="ChainOfResponsibility.Ex1.DayPower">
+      <point x="0.0" y="-36.5" />
+      <point x="1096.5" y="103.0" />
+      <point x="907.625" y="103.0" />
+      <point x="31.875" y="36.5" />
+    </edge>
+    <edge source="ChainOfResponsibility.Ex1.StabsoffiziereDPower" target="ChainOfResponsibility.Ex1.DayPower">
+      <point x="0.0" y="-36.5" />
+      <point x="201.5" y="93.0" />
+      <point x="780.125" y="93.0" />
+      <point x="-95.625" y="36.5" />
+    </edge>
+    <edge source="ChainOfResponsibility.Ex1.HöhereStabsoffieziereDPower" target="ChainOfResponsibility.Ex1.DayPower">
+      <point x="0.0" y="-36.5" />
+      <point x="1564.5" y="93.0" />
+      <point x="971.375" y="93.0" />
+      <point x="95.625" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6136733586543679" x="911.5" y="157.0" />
+  <SelectedNodes>
+    <node>ChainOfResponsibility.Ex1.HauptLeuteDPower</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

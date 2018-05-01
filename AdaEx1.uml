@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="123.0">Adapter.ListAdapterForQueue</node>
+    <node x="75.5" y="0.0">Adapter.MyQueue</node>
+    <node x="0.0" y="482.0">Adapter.StacksAndQueues</node>
+    <node x="0.0" y="364.0">Adapter.ListAdapterForStack</node>
+    <node x="75.5" y="241.0">Adapter.MyStack</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Adapter.ListAdapterForQueue" target="Adapter.MyQueue">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Adapter.ListAdapterForStack" target="Adapter.MyStack">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="201.5" y="277.5" />
+  <SelectedNodes>
+    <node>Adapter.MyQueue</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

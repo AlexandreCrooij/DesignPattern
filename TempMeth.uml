@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>TemplateMethod</OriginalElement>
+  <nodes>
+    <node x="402.0" y="123.0">TemplateMethod.SeattleRestaurant</node>
+    <node x="199.0" y="0.0">TemplateMethod.AbstractRestaurant</node>
+    <node x="0.0" y="241.0">TemplateMethod.Testlauf</node>
+    <node x="0.0" y="123.0">TemplateMethod.NewYorkRestaurant</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TemplateMethod.SeattleRestaurant" target="TemplateMethod.AbstractRestaurant">
+      <point x="0.0" y="-36.5" />
+      <point x="578.0" y="98.0" />
+      <point x="477.25" y="98.0" />
+      <point x="92.75" y="36.5" />
+    </edge>
+    <edge source="TemplateMethod.NewYorkRestaurant" target="TemplateMethod.AbstractRestaurant">
+      <point x="0.0" y="-36.5" />
+      <point x="191.0" y="98.0" />
+      <point x="291.75" y="98.0" />
+      <point x="-92.75" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="377.0" y="157.0" />
+  <SelectedNodes>
+    <node>TemplateMethod.NewYorkRestaurant</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

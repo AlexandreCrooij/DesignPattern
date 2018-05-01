@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Decorator.Ex2</OriginalElement>
+  <nodes>
+    <node x="2031.9999999999998" y="123.0">Decorator.Ex2.AdvancedPackage</node>
+    <node x="0.0" y="246.0">Decorator.Ex2.HotelRoomDecorator</node>
+    <node x="1620.9999999999998" y="123.0">Decorator.Ex2.ProfessionalPackage</node>
+    <node x="1527.4999999999998" y="0.0">Decorator.Ex2.Service</node>
+    <node x="0.0" y="364.0">Decorator.Ex2.Main</node>
+    <node x="424.9999999999998" y="246.0">Decorator.Ex2.WellnessServiceDecorator</node>
+    <node x="1426.9999999999998" y="246.0">Decorator.Ex2.SaunaFullInclusiveDecorator</node>
+    <node x="1030.9999999999998" y="123.0">Decorator.Ex2.Decorator</node>
+    <node x="1938.9999999999998" y="246.0">Decorator.Ex2.SkiPassDecorator</node>
+    <node x="907.9999999999998" y="246.0">Decorator.Ex2.CandleLightDinnerDecorator</node>
+    <node x="1303.9999999999998" y="123.0">Decorator.Ex2.BasicPackage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Decorator.Ex2.Decorator" target="Decorator.Ex2.Service">
+      <point x="0.0" y="-36.5" />
+      <point x="1157.4999999999998" y="93.0" />
+      <point x="1554.2499999999998" y="93.0" />
+      <point x="-80.25" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.ProfessionalPackage" target="Decorator.Ex2.Service">
+      <point x="0.0" y="-36.5" />
+      <point x="1816.4999999999998" y="103.0" />
+      <point x="1661.2499999999998" y="103.0" />
+      <point x="26.75" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.BasicPackage" target="Decorator.Ex2.Service">
+      <point x="0.0" y="-36.5" />
+      <point x="1452.4999999999998" y="103.0" />
+      <point x="1607.7499999999998" y="103.0" />
+      <point x="-26.75" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.SaunaFullInclusiveDecorator" target="Decorator.Ex2.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="1672.9999999999998" y="226.0" />
+      <point x="1208.0999999999997" y="226.0" />
+      <point x="50.59999999999991" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.CandleLightDinnerDecorator" target="Decorator.Ex2.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.WellnessServiceDecorator" target="Decorator.Ex2.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="656.4999999999998" y="226.0" />
+      <point x="1106.8999999999999" y="226.0" />
+      <point x="-50.59999999999991" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.SkiPassDecorator" target="Decorator.Ex2.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="2113.5" y="216.0" />
+      <point x="1258.6999999999998" y="216.0" />
+      <point x="101.20000000000005" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.HotelRoomDecorator" target="Decorator.Ex2.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="202.5" y="216.0" />
+      <point x="1056.2999999999997" y="216.0" />
+      <point x="-101.20000000000005" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex2.AdvancedPackage" target="Decorator.Ex2.Service">
+      <point x="0.0" y="-36.5" />
+      <point x="2213.0" y="93.0" />
+      <point x="1714.7499999999998" y="93.0" />
+      <point x="80.25" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1144.0" y="218.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,5 @@
+Open Closed Principle = Open for extension
+                        Closed for modification
+
+Attaches new functionality dynamically
+--> Look decorator pattern

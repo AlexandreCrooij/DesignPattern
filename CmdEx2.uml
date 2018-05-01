@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Command.Ex2</OriginalElement>
+  <nodes>
+    <node x="361.0" y="291.0">Command.Ex2.RightIndicator</node>
+    <node x="4137.0" y="173.0">Command.Ex2.ShortLightsOnCommand</node>
+    <node x="1314.0" y="173.0">Command.Ex2.LeftIndicatorOffCommand</node>
+    <node x="3651.0" y="173.0">Command.Ex2.LeftIndicatorOnCommand</node>
+    <node x="3060.25" y="0.0">Command.Ex2.Command</node>
+    <node x="5581.0" y="173.0">Command.Ex2.BreaksOffCommand</node>
+    <node x="3185.0" y="173.0">Command.Ex2.LongLightsOnCommand</node>
+    <node x="5988.0" y="173.0">Command.Ex2.SpeedControlOnCommand</node>
+    <node x="1063.0" y="291.0">Command.Ex2.LeftIndicator</node>
+    <node x="1801.0" y="173.0">Command.Ex2.ShortLightsOffCommand</node>
+    <node x="2272.0" y="173.0">Command.Ex2.RightIndicatorOffCommand</node>
+    <node x="1395.0" y="291.0">Command.Ex2.ShortLights</node>
+    <node x="2525.0" y="291.0">Command.Ex2.Car</node>
+    <node x="2780.0" y="173.0">Command.Ex2.ClutchOffCommand</node>
+    <node x="910.0" y="173.0">Command.Ex2.ClutchOnCommand</node>
+    <node x="4607.0" y="173.0">Command.Ex2.LongLightsOffCommand</node>
+    <node x="5074.0" y="173.0">Command.Ex2.RightIndicatorOnCommand</node>
+    <node x="2023.0" y="291.0">Command.Ex2.Breaks</node>
+    <node x="2275.0" y="291.0">Command.Ex2.Clutch</node>
+    <node x="714.0" y="291.0">Command.Ex2.SpeedControl</node>
+    <node x="504.0" y="173.0">Command.Ex2.BreaksOnCommand</node>
+    <node x="0.0" y="291.0">Command.Ex2.RemoteLoader</node>
+    <node x="0.0" y="173.0">Command.Ex2.SpeedControlOffCommand</node>
+    <node x="1711.0" y="291.0">Command.Ex2.LongLights</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Command.Ex2.BreaksOffCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="5774.5" y="103.0" />
+      <point x="3292.3928571428573" y="103.0" />
+      <point x="102.14285714285734" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.LongLightsOffCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="4830.5" y="123.0" />
+      <point x="3255.25" y="123.0" />
+      <point x="65.0" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.BreaksOnCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="697.0" y="103.0" />
+      <point x="3088.1071428571427" y="103.0" />
+      <point x="-102.14285714285734" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.ClutchOnCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="1102.0" y="113.0" />
+      <point x="3106.6785714285716" y="113.0" />
+      <point x="-83.57142857142844" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.LeftIndicatorOnCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="3884.0" y="143.0" />
+      <point x="3218.1071428571427" y="143.0" />
+      <point x="27.857142857142662" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.LeftIndicatorOffCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="1547.5" y="123.0" />
+      <point x="3125.25" y="123.0" />
+      <point x="-65.0" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.ShortLightsOnCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="4362.0" y="133.0" />
+      <point x="3236.6785714285716" y="133.0" />
+      <point x="46.42857142857156" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.RightIndicatorOffCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="2516.0" y="143.0" />
+      <point x="3162.3928571428573" y="143.0" />
+      <point x="-27.857142857142662" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.RightIndicatorOnCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="5317.5" y="113.0" />
+      <point x="3273.8214285714284" y="113.0" />
+      <point x="83.57142857142844" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.ShortLightsOffCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="2026.5" y="133.0" />
+      <point x="3143.8214285714284" y="133.0" />
+      <point x="-46.42857142857156" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.ClutchOffCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="2972.5" y="153.0" />
+      <point x="3180.964285714286" y="153.0" />
+      <point x="-9.28571428571422" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.LongLightsOnCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="3408.0" y="153.0" />
+      <point x="3199.535714285714" y="153.0" />
+      <point x="9.28571428571422" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.SpeedControlOnCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="6229.5" y="93.0" />
+      <point x="3310.964285714286" y="93.0" />
+      <point x="120.71428571428578" y="36.5" />
+    </edge>
+    <edge source="Command.Ex2.SpeedControlOffCommand" target="Command.Ex2.Command">
+      <point x="0.0" y="-36.5" />
+      <point x="242.0" y="93.0" />
+      <point x="3069.535714285714" y="93.0" />
+      <point x="-120.71428571428578" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4657217686026806" x="3235.5" y="182.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

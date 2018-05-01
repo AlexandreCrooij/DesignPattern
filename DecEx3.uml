@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Decorator.Ex3</OriginalElement>
+  <nodes>
+    <node x="0.0" y="246.0">Decorator.Ex3.ColorDecorator</node>
+    <node x="1179.5" y="123.0">Decorator.Ex3.Squares</node>
+    <node x="952.5" y="123.0">Decorator.Ex3.Circles</node>
+    <node x="345.0" y="246.0">Decorator.Ex3.TextureDecorator</node>
+    <node x="394.5" y="123.0">Decorator.Ex3.Decorator</node>
+    <node x="0.0" y="364.0">Decorator.Ex3.Main</node>
+    <node x="717.0" y="246.0">Decorator.Ex3.BorderDecorator</node>
+    <node x="826.5" y="0.0">Decorator.Ex3.Shape</node>
+    <node x="667.5" y="123.0">Decorator.Ex3.Rectangles</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Decorator.Ex3.TextureDecorator" target="Decorator.Ex3.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex3.ColorDecorator" target="Decorator.Ex3.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="162.5" y="221.0" />
+      <point x="436.6666666666667" y="221.0" />
+      <point x="-84.33333333333331" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex3.Circles" target="Decorator.Ex3.Shape">
+      <point x="0.0" y="-36.5" />
+      <point x="1056.0" y="103.0" />
+      <point x="953.375" y="103.0" />
+      <point x="25.375" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex3.Decorator" target="Decorator.Ex3.Shape">
+      <point x="0.0" y="-36.5" />
+      <point x="521.0" y="93.0" />
+      <point x="851.875" y="93.0" />
+      <point x="-76.125" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex3.Rectangles" target="Decorator.Ex3.Shape">
+      <point x="0.0" y="-36.5" />
+      <point x="800.0" y="103.0" />
+      <point x="902.625" y="103.0" />
+      <point x="-25.375" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex3.BorderDecorator" target="Decorator.Ex3.Decorator">
+      <point x="0.0" y="-36.5" />
+      <point x="888.0" y="221.0" />
+      <point x="605.3333333333333" y="221.0" />
+      <point x="84.33333333333326" y="36.5" />
+    </edge>
+    <edge source="Decorator.Ex3.Squares" target="Decorator.Ex3.Shape">
+      <point x="0.0" y="-36.5" />
+      <point x="1292.5" y="93.0" />
+      <point x="1004.125" y="93.0" />
+      <point x="76.125" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="711.5" y="218.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

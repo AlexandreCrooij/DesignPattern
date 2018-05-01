@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>State.Ex1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="251.0">State.Ex1.Main</node>
+    <node x="0.0" y="133.0">State.Ex1.IdleState</node>
+    <node x="1786.0" y="133.0">State.Ex1.CoffeeMachine</node>
+    <node x="257.0" y="133.0">State.Ex1.MakeCoffeeState</node>
+    <node x="1032.0" y="133.0">State.Ex1.InsertingCoinState</node>
+    <node x="625.0" y="133.0">State.Ex1.ServiceNeededState</node>
+    <node x="1417.0" y="133.0">State.Ex1.UserChooseState</node>
+    <node x="922.5" y="0.0">State.Ex1.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="State.Ex1.ServiceNeededState" target="State.Ex1.State">
+      <point x="0.0" y="-36.5" />
+      <point x="818.5" y="113.0" />
+      <point x="1000.8333333333334" y="113.0" />
+      <point x="-15.666666666666629" y="36.5" />
+    </edge>
+    <edge source="State.Ex1.InsertingCoinState" target="State.Ex1.State">
+      <point x="0.0" y="-36.5" />
+      <point x="1214.5" y="113.0" />
+      <point x="1032.1666666666665" y="113.0" />
+      <point x="15.666666666666629" y="36.5" />
+    </edge>
+    <edge source="State.Ex1.CoffeeMachine" target="State.Ex1.State">
+      <point x="0.0" y="-36.5" />
+      <point x="1946.5" y="93.0" />
+      <point x="1094.8333333333333" y="93.0" />
+      <point x="78.33333333333326" y="36.5" />
+    </edge>
+    <edge source="State.Ex1.UserChooseState" target="State.Ex1.State">
+      <point x="0.0" y="-36.5" />
+      <point x="1591.5" y="103.0" />
+      <point x="1063.5" y="103.0" />
+      <point x="47.0" y="36.5" />
+    </edge>
+    <edge source="State.Ex1.IdleState" target="State.Ex1.State">
+      <point x="0.0" y="-36.5" />
+      <point x="118.5" y="93.0" />
+      <point x="938.1666666666666" y="93.0" />
+      <point x="-78.33333333333337" y="36.5" />
+    </edge>
+    <edge source="State.Ex1.MakeCoffeeState" target="State.Ex1.State">
+      <point x="0.0" y="-36.5" />
+      <point x="431.0" y="103.0" />
+      <point x="969.5" y="103.0" />
+      <point x="-47.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1053.5" y="162.0" />
+  <SelectedNodes>
+    <node>State.Ex1.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

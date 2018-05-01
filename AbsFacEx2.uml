@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>AbstractFactory.Ex2</OriginalElement>
+  <nodes>
+    <node x="281.0" y="482.0">AbstractFactory.Ex2.Coupe</node>
+    <node x="382.0" y="123.0">AbstractFactory.Ex2.StandartCarsFactory</node>
+    <node x="247.0" y="846.0">AbstractFactory.Ex2.VWT3</node>
+    <node x="788.0" y="123.0">AbstractFactory.Ex2.LowBudgetCarsFactory</node>
+    <node x="246.0" y="605.0">AbstractFactory.Ex2.VWScirocco</node>
+    <node x="339.0" y="364.0">AbstractFactory.Ex2.VWPickup</node>
+    <node x="362.5" y="241.0">AbstractFactory.Ex2.Pickup</node>
+    <node x="615.0" y="364.0">AbstractFactory.Ex2.NissanPickup</node>
+    <node x="0.0" y="364.0">AbstractFactory.Ex2.HyundaiPickup</node>
+    <node x="117.75" y="723.0">AbstractFactory.Ex2.Minivan</node>
+    <node x="444.0" y="0.0">AbstractFactory.Ex2.CarFactory</node>
+    <node x="0.0" y="846.0">AbstractFactory.Ex2.BMWX5</node>
+    <node x="545.0" y="605.0">AbstractFactory.Ex2.PorscheCayenne</node>
+    <node x="0.0" y="123.0">AbstractFactory.Ex2.LuxuryCarsFactory</node>
+    <node x="0.0" y="605.0">AbstractFactory.Ex2.BMWZ3</node>
+    <node x="492.0" y="723.0">AbstractFactory.Ex2.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AbstractFactory.Ex2.StandartCarsFactory" target="AbstractFactory.Ex2.CarFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.VWScirocco" target="AbstractFactory.Ex2.Coupe">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.VWPickup" target="AbstractFactory.Ex2.Pickup">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.HyundaiPickup" target="AbstractFactory.Ex2.Pickup">
+      <point x="0.0" y="-36.5" />
+      <point x="159.5" y="339.0" />
+      <point x="397.3333333333333" y="339.0" />
+      <point x="-69.66666666666669" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.BMWX5" target="AbstractFactory.Ex2.Minivan">
+      <point x="0.0" y="-36.5" />
+      <point x="113.5" y="821.0" />
+      <point x="174.0" y="821.0" />
+      <point x="-56.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.VWT3" target="AbstractFactory.Ex2.Minivan">
+      <point x="0.0" y="-36.5" />
+      <point x="347.0" y="821.0" />
+      <point x="286.5" y="821.0" />
+      <point x="56.25" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.LuxuryCarsFactory" target="AbstractFactory.Ex2.CarFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="181.0" y="98.0" />
+      <point x="487.6666666666667" y="98.0" />
+      <point x="-87.33333333333331" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.PorscheCayenne" target="AbstractFactory.Ex2.Coupe">
+      <point x="0.0" y="-36.5" />
+      <point x="715.5" y="580.0" />
+      <point x="455.16666666666674" y="580.0" />
+      <point x="69.66666666666674" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.LowBudgetCarsFactory" target="AbstractFactory.Ex2.CarFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="1000.5" y="98.0" />
+      <point x="662.3333333333333" y="98.0" />
+      <point x="87.33333333333326" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.NissanPickup" target="AbstractFactory.Ex2.Pickup">
+      <point x="0.0" y="-36.5" />
+      <point x="763.0" y="339.0" />
+      <point x="536.6666666666667" y="339.0" />
+      <point x="69.66666666666669" y="36.5" />
+    </edge>
+    <edge source="AbstractFactory.Ex2.BMWZ3" target="AbstractFactory.Ex2.Coupe">
+      <point x="0.0" y="-36.5" />
+      <point x="113.0" y="580.0" />
+      <point x="315.8333333333333" y="580.0" />
+      <point x="-69.66666666666669" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="606.5" y="459.5" />
+  <SelectedNodes>
+    <node>AbstractFactory.Ex2.BMWZ3</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

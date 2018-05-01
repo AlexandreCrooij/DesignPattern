@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Strategy.Ex3</OriginalElement>
+  <nodes>
+    <node x="0.0" y="123.0">Strategy.Ex3.BreakThree</node>
+    <node x="116.5" y="241.0">Strategy.Ex3.AcceleratingBehaviour</node>
+    <node x="0.0" y="364.0">Strategy.Ex3.AccelerateOne</node>
+    <node x="230.5" y="0.0">Strategy.Ex3.BreakingBehaviour</node>
+    <node x="0.0" y="482.0">Strategy.Ex3.Main</node>
+    <node x="334.0" y="364.0">Strategy.Ex3.AccelerateTwo</node>
+    <node x="232.0" y="482.0">Strategy.Ex3.Car</node>
+    <node x="289.0" y="123.0">Strategy.Ex3.BreakOne</node>
+    <node x="559.0" y="123.0">Strategy.Ex3.BreakTwo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Strategy.Ex3.BreakOne" target="Strategy.Ex3.BreakingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex3.BreakThree" target="Strategy.Ex3.BreakingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="134.5" y="98.0" />
+      <point x="291.6666666666667" y="98.0" />
+      <point x="-122.33333333333331" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex3.AccelerateOne" target="Strategy.Ex3.AcceleratingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="157.0" y="339.0" />
+      <point x="220.25" y="339.0" />
+      <point x="-103.75" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex3.AccelerateTwo" target="Strategy.Ex3.AcceleratingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="491.0" y="339.0" />
+      <point x="427.75" y="339.0" />
+      <point x="103.75" y="36.5" />
+    </edge>
+    <edge source="Strategy.Ex3.BreakTwo" target="Strategy.Ex3.BreakingBehaviour">
+      <point x="0.0" y="-36.5" />
+      <point x="684.0" y="98.0" />
+      <point x="536.3333333333333" y="98.0" />
+      <point x="122.33333333333326" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="404.5" y="277.5" />
+  <SelectedNodes>
+    <node>Strategy.Ex3.BreakTwo</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

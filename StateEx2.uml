@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>State.Ex2</OriginalElement>
+  <nodes>
+    <node x="1379.0" y="123.0">State.Ex2.SpeakingState</node>
+    <node x="722.0" y="0.0">State.Ex2.State</node>
+    <node x="623.0" y="123.0">State.Ex2.WaitinToSpeakState</node>
+    <node x="279.0" y="123.0">State.Ex2.InMeetingState</node>
+    <node x="1029.0" y="123.0">State.Ex2.RegisteredState</node>
+    <node x="0.0" y="241.0">State.Ex2.Main</node>
+    <node x="0.0" y="123.0">State.Ex2.Meetomat</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="State.Ex2.Meetomat" target="State.Ex2.State">
+      <point x="0.0" y="-36.5" />
+      <point x="129.5" y="93.0" />
+      <point x="740.8" y="93.0" />
+      <point x="-75.20000000000005" y="36.5" />
+    </edge>
+    <edge source="State.Ex2.RegisteredState" target="State.Ex2.State">
+      <point x="0.0" y="-36.5" />
+      <point x="1194.0" y="103.0" />
+      <point x="853.5999999999999" y="103.0" />
+      <point x="37.59999999999991" y="36.5" />
+    </edge>
+    <edge source="State.Ex2.WaitinToSpeakState" target="State.Ex2.State">
+      <point x="0.0" y="-36.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="State.Ex2.InMeetingState" target="State.Ex2.State">
+      <point x="0.0" y="-36.5" />
+      <point x="441.0" y="103.0" />
+      <point x="778.4" y="103.0" />
+      <point x="-37.60000000000002" y="36.5" />
+    </edge>
+    <edge source="State.Ex2.SpeakingState" target="State.Ex2.State">
+      <point x="0.0" y="-36.5" />
+      <point x="1534.0" y="93.0" />
+      <point x="891.1999999999999" y="93.0" />
+      <point x="75.19999999999993" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="718.0" y="607.5" />
+  <SelectedNodes>
+    <node>State.Ex2.SpeakingState</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
